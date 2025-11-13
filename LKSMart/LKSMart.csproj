@@ -58,19 +58,38 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="KeloaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeloaForm.Designer.cs">
+      <DependentUpon>KeloaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KelolaForm.cs" />
     <Compile Include="LogActivity.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LogActivity.Designer.cs">
       <DependentUpon>LogActivity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Penjualan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penjualan.Designer.cs">
+      <DependentUpon>Penjualan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KeloaForm.resx">
+      <DependentUpon>KeloaForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LogActivity.resx">
       <DependentUpon>LogActivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjualan.resx">
+      <DependentUpon>Penjualan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
