@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace LKSMart
 {
-    public partial class Penjualan : Form
+    public partial class Transaksi : Form
     {
-        public Penjualan()
+        public Transaksi()
         {
             InitializeComponent();
         }
 
-        private void lvlog_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Shapes1_Click(object sender, EventArgs e)
+        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
