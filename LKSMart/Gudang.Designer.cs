@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "TROO1", System.Drawing.SystemColors.WindowText, System.Drawing.Color.White, new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Senin 13/Mei/24"),
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Rp.60.000"),
@@ -45,7 +45,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -67,6 +66,7 @@
             this.NamaKasir = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.NamaPelanggan = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,7 +101,7 @@
             this.guna2Button7.FillColor = System.Drawing.Color.Crimson;
             this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.Location = new System.Drawing.Point(92, 374);
+            this.guna2Button7.Location = new System.Drawing.Point(82, 462);
             this.guna2Button7.Name = "guna2Button7";
             this.guna2Button7.Size = new System.Drawing.Size(97, 34);
             this.guna2Button7.TabIndex = 63;
@@ -120,7 +120,7 @@
             this.guna2Button3.FillColor = System.Drawing.Color.SteelBlue;
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(87, 240);
+            this.guna2Button3.Location = new System.Drawing.Point(77, 328);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(113, 30);
             this.guna2Button3.TabIndex = 62;
@@ -139,7 +139,7 @@
             this.guna2Button2.FillColor = System.Drawing.Color.SteelBlue;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(87, 276);
+            this.guna2Button2.Location = new System.Drawing.Point(77, 364);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(113, 30);
             this.guna2Button2.TabIndex = 61;
@@ -158,7 +158,7 @@
             this.guna2Button1.FillColor = System.Drawing.Color.RoyalBlue;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(87, 315);
+            this.guna2Button1.Location = new System.Drawing.Point(77, 403);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(113, 30);
             this.guna2Button1.TabIndex = 60;
@@ -169,7 +169,7 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.SteelBlue;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(87, 175);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(77, 263);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(113, 44);
             this.guna2HtmlLabel4.TabIndex = 59;
@@ -222,19 +222,6 @@
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(119, 24);
             this.guna2HtmlLabel2.TabIndex = 70;
             this.guna2HtmlLabel2.Text = "Kode Barang";
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::LKSMart.Properties.Resources.manager;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(78, 18);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(133, 141);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 58;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // guna2TextBox1
             // 
@@ -289,9 +276,9 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(278, 115);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(119, 24);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(136, 24);
             this.guna2HtmlLabel5.TabIndex = 72;
-            this.guna2HtmlLabel5.Text = "Kode Barang";
+            this.guna2HtmlLabel5.Text = "Jumlah Barang";
             // 
             // guna2TextBox3
             // 
@@ -493,7 +480,7 @@
             this.lvlog.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.lvlog.HideSelection = false;
             this.lvlog.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem3});
+            listViewItem1});
             this.lvlog.Location = new System.Drawing.Point(280, 383);
             this.lvlog.Name = "lvlog";
             this.lvlog.Size = new System.Drawing.Size(508, 208);
@@ -539,6 +526,19 @@
             this.guna2HtmlLabel10.Size = new System.Drawing.Size(330, 44);
             this.guna2HtmlLabel10.TabIndex = 86;
             this.guna2HtmlLabel10.Text = "Tabel Stok Barang";
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::LKSMart.Properties.Resources.warehouse;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(68, 106);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(133, 141);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 58;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // Gudang
             // 
