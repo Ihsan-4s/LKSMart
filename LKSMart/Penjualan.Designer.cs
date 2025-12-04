@@ -184,9 +184,9 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Navy;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(276, 12);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(300, 44);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(335, 44);
             this.guna2HtmlLabel1.TabIndex = 51;
-            this.guna2HtmlLabel1.Text = "Kelola Penjualan";
+            this.guna2HtmlLabel1.Text = "Laporan Penjualan";
             // 
             // guna2HtmlLabel2
             // 
